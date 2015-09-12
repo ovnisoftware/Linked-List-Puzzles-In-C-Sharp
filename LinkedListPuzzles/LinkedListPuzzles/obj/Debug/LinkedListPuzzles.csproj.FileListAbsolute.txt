@@ -4,3 +4,8 @@ C:\Users\tester\Documents\Visual Studio 2013\Projects\LinkedListPuzzles\LinkedLi
 C:\Users\tester\Documents\Visual Studio 2013\Projects\LinkedListPuzzles\LinkedListPuzzles\bin\Debug\LinkedListPuzzles.pdb
 C:\Users\tester\Documents\Visual Studio 2013\Projects\LinkedListPuzzles\LinkedListPuzzles\obj\Debug\LinkedListPuzzles.exe
 C:\Users\tester\Documents\Visual Studio 2013\Projects\LinkedListPuzzles\LinkedListPuzzles\obj\Debug\LinkedListPuzzles.pdb
+C:\Users\tester\Documents\GitHub\Linked-List-Puzzles-In-C-Sharp\LinkedListPuzzles\LinkedListPuzzles\bin\Debug\LinkedListPuzzles.exe.config
+C:\Users\tester\Documents\GitHub\Linked-List-Puzzles-In-C-Sharp\LinkedListPuzzles\LinkedListPuzzles\obj\Debug\LinkedListPuzzles.exe
+C:\Users\tester\Documents\GitHub\Linked-List-Puzzles-In-C-Sharp\LinkedListPuzzles\LinkedListPuzzles\obj\Debug\LinkedListPuzzles.pdb
+C:\Users\tester\Documents\GitHub\Linked-List-Puzzles-In-C-Sharp\LinkedListPuzzles\LinkedListPuzzles\bin\Debug\LinkedListPuzzles.exe
+C:\Users\tester\Documents\GitHub\Linked-List-Puzzles-In-C-Sharp\LinkedListPuzzles\LinkedListPuzzles\bin\Debug\LinkedListPuzzles.pdb

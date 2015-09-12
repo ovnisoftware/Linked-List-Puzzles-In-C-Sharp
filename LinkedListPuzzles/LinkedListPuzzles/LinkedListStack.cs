@@ -8,7 +8,7 @@ namespace LinkedListPuzzles
 {
     //Implement a LinkedList as a stack (LIFO / Last In, First Out)
     //Implement a singly linked list as a stack (Push, Pop, Clear, Count, Peek)
-    public class LinkedListStack
+    public partial class LinkedListStack
     {
         private Node Head;
         public int Count { get; private set; }
@@ -19,6 +19,7 @@ namespace LinkedListPuzzles
         }
 
         //We are adding before the head to implement as a stack (Each new node added becomes the head)
+        //O(1) time complexity
         public void Push(object x)
         { 
             Node n = new Node(x);
@@ -27,6 +28,7 @@ namespace LinkedListPuzzles
             Count++;
         }
 
+        //O(1) time complexity
         public object Pop()
         { 
             object result;
@@ -53,14 +55,12 @@ namespace LinkedListPuzzles
             this.Head = null;
             Count = 0;
         }
-        ////Call in Program.cs to test
-        //LinkedListStack list = new LinkedListStack();
-        //list.Push("pushed first");
-        //list.Push("pushed last");
-        //Console.WriteLine(list.Count);
-        //Console.WriteLine(list.Pop());
-        ////Output should be:
-        ////2
-        ////pushed last
+            ////Call in Program.cs to test
+            //LinkedListStack list = new LinkedListStack();
+            //list.Push("pushed first");
+            //list.Push("pushed last");
+            //Console.WriteLine(list.Count);
+            //Console.WriteLine(list.Pop());
+            //Console.WriteLine(list.Pop());
     }
 }
