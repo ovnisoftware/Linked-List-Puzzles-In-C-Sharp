@@ -7,4 +7,7 @@ Various Linked List Puzzles with Solutions in C Sharp
 2. Insert an object into a linked list
  - Insert.cs
 
+3. Write a function to detect a cycle in a linked list
+ - Detect_Cycle.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
