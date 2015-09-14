@@ -10,4 +10,7 @@ Various Linked List Puzzles with Solutions in C Sharp
 3. Write a function to detect a cycle in a linked list
  - Detect_Cycle.cs
 
+4. Find nth to last element of a singly linked list
+ - FindNToLast.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
