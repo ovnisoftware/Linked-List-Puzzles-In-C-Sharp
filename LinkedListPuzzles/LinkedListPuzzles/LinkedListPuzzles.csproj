@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delete.cs" />
     <Compile Include="Detect_Cycle.cs" />
     <Compile Include="FindNToLast.cs" />
     <Compile Include="Insert.cs" />
