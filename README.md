@@ -13,4 +13,7 @@ Various Linked List Puzzles with Solutions in C Sharp
 4. Find nth to last element of a singly linked list
  - FindNToLast.cs
 
+5. Write a method to delete the nth element from the head node of a singly linked list
+ - Delete.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
