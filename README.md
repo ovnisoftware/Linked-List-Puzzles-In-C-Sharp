@@ -16,4 +16,7 @@ Various Linked List Puzzles with Solutions in C Sharp
 5. Write a method to delete the nth element from the head node of a singly linked list
  - Delete.cs
 
+6. Write a method that deletes the middle node in a singly linked list
+ - Delete_Middle_Node.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
