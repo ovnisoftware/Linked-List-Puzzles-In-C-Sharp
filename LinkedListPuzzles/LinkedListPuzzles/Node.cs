@@ -9,7 +9,7 @@ namespace LinkedListPuzzles
     //Stores the object and pointer to the next node in the list
     public class Node
     {
-        public object Data { get; private set; }
+        public object Data { get; set; }
         public Node Next { get; set; }
 
         public Node(object x)

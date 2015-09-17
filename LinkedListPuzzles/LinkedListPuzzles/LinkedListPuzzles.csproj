@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delete.cs" />
+    <Compile Include="Delete_Middle_Node.cs" />
     <Compile Include="Detect_Cycle.cs" />
     <Compile Include="FindNToLast.cs" />
     <Compile Include="Insert.cs" />

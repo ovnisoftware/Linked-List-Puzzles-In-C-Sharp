@@ -11,6 +11,7 @@ namespace LinkedListPuzzles
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
