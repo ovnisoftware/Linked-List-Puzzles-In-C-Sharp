@@ -19,4 +19,7 @@ Various Linked List Puzzles with Solutions in C Sharp
 6. Write a method that deletes the middle node in a singly linked list
  - Delete_Middle_Node.cs
 
+7. Reverse a linked list using iteration
+ - Reverse.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
