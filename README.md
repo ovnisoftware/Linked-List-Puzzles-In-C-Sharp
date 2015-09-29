@@ -8,7 +8,7 @@ Various Linked List Puzzles with Solutions in C Sharp
  - Insert.cs
 
 3. Write a function to detect a cycle in a linked list
- - Detect_Cycle.cs
+ - DetectCycle.cs
 
 4. Find nth to last element of a singly linked list
  - FindNToLast.cs
@@ -17,12 +17,15 @@ Various Linked List Puzzles with Solutions in C Sharp
  - Delete.cs
 
 6. Write a method that deletes the middle node in a singly linked list
- - Delete_Middle_Node.cs
+ - DeleteMiddleNode.cs
 
 7. Write a method to reverse a singly linked list using iteration
  - Reverse.cs
 
 8. Write a method to print a singly list backwards using recursion
  - Print.cs
+
+9. Write a method to peek x nodes forward in a singly linked list  
+PeekByIndex.cs
 
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
