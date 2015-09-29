@@ -42,12 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delete.cs" />
-    <Compile Include="Delete_Middle_Node.cs" />
-    <Compile Include="Detect_Cycle.cs" />
+    <Compile Include="DeleteMiddleNode.cs" />
+    <Compile Include="DetectCycle.cs" />
     <Compile Include="FindNToLast.cs" />
     <Compile Include="Insert.cs" />
     <Compile Include="LinkedListStack.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="PeekByIndex.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

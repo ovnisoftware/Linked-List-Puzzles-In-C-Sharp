@@ -12,8 +12,8 @@ namespace LinkedListPuzzles
         //1 returns the last object in the linked list
         public object FindNToLast(int x)
         {
-            Node lag = Head;
-            Node lead = Head;
+            Node lag = head;
+            Node lead = head;
 
             //Move the lead pointer up (x-1 positions) while leaving the lag pointer behind
             for (int i = 1; i < x; i++)

@@ -14,8 +14,8 @@ namespace LinkedListPuzzles
 
         public Node(object x)
         {
-            this.Data = x;
-            this.Next = null;
+            Data = x;
+            Next = null;
         }
     }
 }

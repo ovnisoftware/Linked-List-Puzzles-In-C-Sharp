@@ -24,7 +24,7 @@ namespace LinkedListPuzzles
         //Passing 1 deletes the head Node
         public void TestDeleteMiddle(int nodeToDelete)
         {
-            Node cur = Head;
+            Node cur = head;
             for (int i = 1; i < nodeToDelete; i++)
                 cur = cur.Next;
             DeleteMiddle(cur);

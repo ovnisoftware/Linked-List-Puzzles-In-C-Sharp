@@ -12,7 +12,7 @@ namespace LinkedListPuzzles
         //Good Explanation here: https://www.youtube.com/watch?v=K7J3nCeRC80 MyCodeSchool Youtube Channel
         public void CallReversePrint()
         {
-            ReversePrint(Head);
+            ReversePrint(head);
         }
 
         public void ReversePrint(Node n)

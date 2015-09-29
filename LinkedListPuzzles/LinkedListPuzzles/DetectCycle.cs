@@ -16,18 +16,18 @@ namespace LinkedListPuzzles
         //This creates a cycle by setting the last node's next property equal to the head
         public void CreateCycle()
         {
-            Node cur = Head;
+            Node cur = head;
             while (cur.Next != null)
                 cur = cur.Next;
-            cur.Next = Head;
+            cur.Next = head;
         }
 
         //Returns true if the list is an infinite loop, returns false if the list ends
         public bool DetectCycle()
         {
             //Create two pointers
-            Node lag = Head;
-            Node lead = Head.Next;
+            Node lag = head;
+            Node lead = head.Next;
 
             //Move the lag pointer ahead one position in the list and move the leader ahead 2 positions
             while (lead.Next != null)

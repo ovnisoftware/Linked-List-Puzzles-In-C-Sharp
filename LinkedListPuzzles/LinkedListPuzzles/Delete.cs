@@ -16,11 +16,11 @@ namespace LinkedListPuzzles
 
             if (x == 1)
             {
-                Head = Head.Next;
+                head = head.Next;
                 return;
             }
-            Node lag = Head;
-            Node lead = Head.Next;
+            Node lag = head;
+            Node lead = head.Next;
             //lag Node will point at the node before the Node we want to delete, lead is set to the node
             //set to be deleted
             for (int i = 2; i < x; i++)

@@ -12,12 +12,12 @@ namespace LinkedListPuzzles
         public void Reverse()
         {
             //Return if the list has less than 2 nodes
-            if (Head == null || Head.Next == null)
+            if (head == null || head.Next == null)
                 return;
 
             //Use trailing nodes to reverse the pointers
-            Node lag = Head;
-            Node lead = Head.Next;
+            Node lag = head;
+            Node lead = head.Next;
             lag.Next = null;
             
             while (lead.Next != null)
@@ -28,8 +28,8 @@ namespace LinkedListPuzzles
                 lead = temp;
             }
             //Set the head to the last node in the list
-            Head = lead;
-            Head.Next = lag;
+            head = lead;
+            head.Next = lag;
         }
         ////Run in Program.cs to test
         //LinkedListStack list = new LinkedListStack();

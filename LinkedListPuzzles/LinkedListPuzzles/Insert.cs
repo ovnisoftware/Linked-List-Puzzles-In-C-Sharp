@@ -23,8 +23,8 @@ namespace LinkedListPuzzles
             }
 
             //Set two pointer nodes to first and second position
-            Node lag = Head;
-            Node lead = Head.Next;
+            Node lag = head;
+            Node lead = head.Next;
             Node toInsert = new Node(x);
 
             //Set the pointers to the nodes immediately before and after the inserted node

@@ -10,12 +10,12 @@ namespace LinkedListPuzzles
     //Implement a singly linked list as a stack (Push, Pop, Clear, Count, Peek)
     public partial class LinkedListStack
     {
-        private Node Head;
+        private Node head;
         public int Count { get; private set; }
 
         public LinkedListStack()
         {
-            this.Head = null;
+            head = null;
         }
 
         //We are adding before the head to implement as a stack (Each new node added becomes the head)
@@ -23,8 +23,8 @@ namespace LinkedListPuzzles
         public void Push(object x)
         { 
             Node n = new Node(x);
-            n.Next = Head;
-            this.Head = n;
+            n.Next = head;
+            this.head = n;
             Count++;
         }
 
@@ -32,13 +32,13 @@ namespace LinkedListPuzzles
         public object Pop()
         { 
             object result;
-            if (Head == null)
+            if (head == null)
                 //This is how the C# Stack implementation in System.Collections handles popping an empty stack
                 throw new InvalidOperationException("Stack empty");
             else
             {
-                result = Head.Data;
-                this.Head = Head.Next;
+                result = head.Data;
+                this.head = head.Next;
                 return result;
             }
         }
@@ -46,13 +46,13 @@ namespace LinkedListPuzzles
         //Returns the next object in the stack while not popping it off the stack
         public object Peek()
         {
-            return Head.Data;
+            return head.Data;
         }
 
         //Clears the Stack, resets the count
         public void Clear()
         {
-            this.Head = null;
+            head = null;
             Count = 0;
         }
             ////Call in Program.cs to test
