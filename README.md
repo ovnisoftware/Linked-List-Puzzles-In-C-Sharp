@@ -28,4 +28,7 @@ Print.cs
 9. Write a method to peek x nodes forward in a singly linked list  
 PeekByIndex.cs
 
+10. Write a method to print a singly list forward using recursion  
+Print.cs
+
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
