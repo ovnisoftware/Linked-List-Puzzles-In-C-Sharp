@@ -22,13 +22,13 @@ DeleteMiddleNode.cs
 7. Write a method to reverse a singly linked list using iteration  
 Reverse.cs
 
-8. Write a method to print a singly list backwards using recursion  
+8. Write a method to print a singly linked list backwards using recursion  
 Print.cs
 
 9. Write a method to peek x nodes forward in a singly linked list  
 PeekByIndex.cs
 
-10. Write a method to print a singly list forward using recursion  
+10. Write a method to print a singly linked list forward using recursion  
 Print.cs
 
 The .cs files listed are all partial classes of LinkedListStack to better separate the puzzles.
