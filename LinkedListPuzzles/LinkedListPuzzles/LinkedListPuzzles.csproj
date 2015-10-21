@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppendList.cs" />
     <Compile Include="Delete.cs" />
     <Compile Include="DeleteMiddleNode.cs" />
     <Compile Include="DetectCycle.cs" />

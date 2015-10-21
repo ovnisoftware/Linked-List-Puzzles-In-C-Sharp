@@ -9,6 +9,7 @@ namespace LinkedListPuzzles
     partial class LinkedListStack
     {
         //Remove duplicates from a sorted linked list (Assumes nodes contain integers as data)
+        //Source: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
         public void RemoveDuplicates()
         {
             Node lag = head;

@@ -10,7 +10,7 @@ namespace LinkedListPuzzles
     //Implement a singly linked list as a stack (Push, Pop, Clear, Count, Peek)
     public partial class LinkedListStack
     {
-        private Node head;
+        public Node head;
         public int Count { get; private set; }
 
         public LinkedListStack()
