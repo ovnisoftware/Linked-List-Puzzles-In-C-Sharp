@@ -12,6 +12,11 @@ namespace LinkedListPuzzles
         //1 returns the last object in the linked list
         public object FindNToLast(int x)
         {
+            if (head == null)
+                throw new Exception("Empty linked list");
+            if (x < 1)
+                throw new Exception("Index out of range");
+
             Node lag = head;
             Node lead = head;
 

@@ -16,9 +16,9 @@ namespace LinkedListPuzzles
             if (x.Next == null)
                 return;
             //Copy data from next node to passed node
-            Node n = x.Next;
-            x.Data = n.Data;
-            x.Next = n.Next;
+            x.Data = x.Next.Data;
+            //Set Next pointer to node after copied data
+            x.Next = x.Next.Next;
         }
 
         //Passing 1 deletes the head Node
@@ -27,6 +27,7 @@ namespace LinkedListPuzzles
             Node cur = head;
             for (int i = 1; i < nodeToDelete; i++)
                 cur = cur.Next;
+            //DeleteMiddle(cur);
             DeleteMiddle(cur);
         }
         ////Run in Program.cs to test
