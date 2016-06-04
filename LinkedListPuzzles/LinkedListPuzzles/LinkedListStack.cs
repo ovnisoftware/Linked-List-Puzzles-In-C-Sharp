@@ -21,7 +21,7 @@ namespace LinkedListPuzzles
         //We are adding before the head to implement as a stack (Each new node added becomes the head)
         //O(1) time complexity
         public void Push(object x)
-        { 
+        {
             Node n = new Node(x);
             n.Next = head;
             this.head = n;
@@ -30,17 +30,14 @@ namespace LinkedListPuzzles
 
         //O(1) time complexity
         public object Pop()
-        { 
-            object result;
+        {
+            //This is how the C# Stack implementation in System.Collections handles popping an empty stack
             if (head == null)
-                //This is how the C# Stack implementation in System.Collections handles popping an empty stack
                 throw new InvalidOperationException("Stack empty");
-            else
-            {
-                result = head.Data;
-                this.head = head.Next;
-                return result;
-            }
+
+            object result = head.Data;
+            this.head = head.Next;
+            return result;
         }
 
         //Returns the next object in the stack while not popping it off the stack
@@ -55,12 +52,12 @@ namespace LinkedListPuzzles
             head = null;
             Count = 0;
         }
-            ////Call in Program.cs to test
-            //LinkedListStack list = new LinkedListStack();
-            //list.Push("pushed first");
-            //list.Push("pushed last");
-            //Console.WriteLine(list.Count);
-            //Console.WriteLine(list.Pop());
-            //Console.WriteLine(list.Pop());
+        ////Call in Program.cs to test
+        //LinkedListStack list = new LinkedListStack();
+        //list.Push("pushed first");
+        //list.Push("pushed last");
+        //Console.WriteLine(list.Count);
+        //Console.WriteLine(list.Pop());
+        //Console.WriteLine(list.Pop());
     }
 }
